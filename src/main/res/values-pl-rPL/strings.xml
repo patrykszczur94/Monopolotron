@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monopolotron</string>
+    <string name="find_shops">Znajdź sklep najblizej Ciebie!</string>
+    <string name="settings">Ustawienia</string>
+    <string name="favourites">Ulubione sklepy</string>
+    <string name="title_activity_favourites_container">FavouritesContainerActivity</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="switch_off">Odległość</string>
+    <string name="switch_on">liczba sklepów</string>
+    <string name="switch_off_label">maksymalna odległość</string>
+    <string name="switch_on_label">maksymalna liczba sklepów</string>
+    <string name="username_label">login</string>
+    <string name="password_label">hasło</string>
+    <string name="register_label">Nie zarejestrowany ? Zrób to !</string>
+    <string name="displayname_label">Podaj imie</string>
+    <string name="register">Zarejestruj</string>
+    <string name="maturity">Mam skończone 18 lat</string>
+    <string name="title_activity_maps">mapy</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="email">email</string>
+    <string name="search">szukaj</string>
+    <string name="whereareyou">Wpisz gdzie jesteś</string>
+    <string name="setings">Ustawienia</string>
+    <string name="programers">Programiści</string>
+    <string name="website">Strona Internetowa</string>
+    <string name="ourwebsite">otwórz strone</string>
+    <string name="aboutapp">O aplikacji</string>
+    <string name="login">Logowanie</string>
+    <string name="logIn">Zaloguj</string>
+    <string name="preferences">Wyszukiwanie</string>
+    <string name="searchh">szukaj</string>
+    <string name="favoruites">Ulubione sklepy</string>
+    <string name="error">zgłoś błąd w aplikacji</string>
+    <string name="problemcategory">wpisz kategorie problemu</string>
+    <string name="problememail">podaj swój email</string>
+    <string name="problemdesc">opis problemu</string>
+    <string name="problemsend">wyślij</string>
+    <string name="signin">zaloguj się</string>
+    <string name="describe">opisz problem</string>
+    <string name="thanks">Dziękujemy za pomoc</string>
+    <string name="Maps">Mapy</string>
+    <string name="maps">Mapy</string>
+
+</resources>

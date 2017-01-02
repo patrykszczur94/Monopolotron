@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#d3d3d3"
+    tools:context="ratcoding.mainactivity.LoginActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/app_bar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setings"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textSize="24sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#f7f5f5f5"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_below="@+id/app_bar"
+        android:id="@+id/linearLayout">
+
+        <Space
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.06"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="@string/programers"
+            android:id="@+id/button4"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/app_bar"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openInfo"/>
+
+        <Space
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.008"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorPrimary"
+            android:text="Patryk Szczur"
+            android:id="@+id/programist1"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/app_bar"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:onClick="SzczurInfo"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.008"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorPrimary"
+            android:text="Dominik Żegleń"
+            android:id="@+id/programist2"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/app_bar"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:onClick="ŻegleńInfo"/>
+
+        <Space
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:text="@string/website"
+            android:id="@+id/button5"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/app_bar"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"/>
+
+        <Space
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.008"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorPrimary"
+            android:text="@string/ourwebsite"
+            android:id="@+id/website"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/app_bar"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:onClick="openWebsite"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:clickable="false" />
+
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/aboutapp"
+            android:id="@+id/aboutApp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/app_bar"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:onClick="abooutApp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:clickable="false" />
+
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:text="Alkotron"
+            android:id="@+id/button7"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/app_bar"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"/>
+
+        <Space
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.008"
+            android:clickable="false" />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="?attr/colorPrimary"
+            android:text="app version 1.0"
+            android:id="@+id/version"
+            android:gravity="center"
+            android:background="#FFFFFF"
+            android:layout_below="@+id/app_bar"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"/>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:clickable="false" />
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textColor="#111111"
+            android:text="@string/error"
+            android:id="@+id/btError"
+            android:gravity="center"
+            android:background="?attr/colorPrimary"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:onClick="openError"/>
+
+        </LinearLayout>
+
+</RelativeLayout>
+
